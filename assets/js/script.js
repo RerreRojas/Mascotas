@@ -50,8 +50,8 @@ class Animal extends Propietario {
 }
 
 class Mascota extends Animal {
-    constructor(nombre, enfermedad) {
-        super();
+    constructor(nombre, direccion, telefono, enfermedad) {
+        super(nombre, direccion, telefono);
         this._nombre = nombre;
         this._enfermedad = enfermedad;
     }
